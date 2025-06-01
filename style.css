@@ -12,6 +12,13 @@ h3{
     margin:0;
     padding:0;
 }
+body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .box{
     height:200px;
     width:200px;
@@ -23,5 +30,9 @@ h3{
     margin: 30px;
     border-radius:20px;
     box-shadow:2px 2px 20px black;
+    font-weight:700;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     
 }
